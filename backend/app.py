@@ -121,4 +121,4 @@ def api_item_detail(mol_idx: int):
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=443, debug=False)  # <-- bind to all interfaces
+    app.run(host="0.0.0.0", port=80, debug=False)  # <-- bind to all interfaces

@@ -55,11 +55,11 @@
     },
     server: {
   host: true,          // <— expose the ip
-  port: 80,
+  port: 8080,
   open: false,
   proxy: {
     "/api": {
-      target: "http://104.194.156.115:443",
+      target: "ms3fa.helmholtz-hzi.de:80",
       changeOrigin: true,
       secure: false,
     },

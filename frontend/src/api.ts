@@ -2,7 +2,7 @@ import axios from 'axios';
 import { FilterParams } from './types';
 import { Compound,ApiResponse } from './types';
 
-const API_BASE_URL = 'http://104.194.156.115:443/api';
+const API_BASE_URL = 'http://ms3fa.helmholtz-hzi.de:80/api';
 
 
 

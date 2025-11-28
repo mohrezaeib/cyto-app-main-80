@@ -24,4 +24,4 @@ ENV FLASK_RUN_HOST=0.0.0.0
 ENV FLASK_ENV=production
 
 # Run the application
-CMD ["flask", "run", "--host=0.0.0.0", "--port=443"]
+CMD ["flask", "run", "--host=0.0.0.0", "--port=80"]
