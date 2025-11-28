@@ -57,6 +57,7 @@
   host: true,          // <— expose the ip
   port: 8080,
   open: false,
+  allowedHosts: ["ms3fa.helmholtz-hzi.de", "http://hzi-bscbio-web03.helmholtz-hzi.de:8080", "192.168.2.123"],  
   proxy: {
     "/api": {
       target: "ms3fa.helmholtz-hzi.de:80",
