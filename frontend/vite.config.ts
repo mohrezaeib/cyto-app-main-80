@@ -60,7 +60,7 @@
   allowedHosts: ["ms3fa.helmholtz-hzi.de", "http://hzi-bscbio-web03.helmholtz-hzi.de:8080", "192.168.2.123"],  
   proxy: {
     "/api": {
-      target: "104.194.156.115:443",
+      target: "http://104.194.156.115:443",
       changeOrigin: true,
       secure: false,
     },
